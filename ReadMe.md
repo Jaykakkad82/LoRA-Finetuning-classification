@@ -12,8 +12,8 @@
 - Advantage: reduces the number of trainable parameters but achieves competitive performance.
 
 ## Results:
-LORA finetuned BERT model's F1 score: 0.9919
-Last layer finetuned BERT model's F1 score: 0989
-tf-idf based linear SVM model's f1 score: 0.99
+- LORA finetuned BERT model's F1 score: 0.9919
+- Last layer finetuned BERT model's F1 score: 0989
+- tf-idf based linear SVM model's f1 score: 0.99
 
-Without fine-tuning, BERT based model is unable to beat performance of tf-idf based solution. After fine-tuning, it is able to beat tf-idf based svm model.
+- Without fine-tuning, BERT based model is unable to beat performance of tf-idf based solution. After fine-tuning, it is able to beat tf-idf based svm model.
